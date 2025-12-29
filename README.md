@@ -172,6 +172,9 @@ exports.sendLoginOTP = async (req, res) => {
 
 - Ready for production & scaling
 
+## 📄 License
+
+[MIT License](https://github.com/BackendExpert/otp-core-email-core/blob/master/LICENSE)
 
 ## 👨‍💻 Author    
 
