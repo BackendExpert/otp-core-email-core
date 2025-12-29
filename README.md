@@ -32,3 +32,20 @@ EMAIL_PASSWORD=your-app-password
 ```
 
 - The package does NOT manage .env files — this is intentional and follows npm best practices
+
+
+## 📁 Package Exports
+
+```js
+
+const {
+  defaultLoginOTPEmail,
+  genarateOTP,
+  sendEmail
+} = require("otp-core-email-core");
+
+```
+
+|--------|--------|
+| Function | Description |
+| `genarateOTP(length)` | Generates a secure OTP |
